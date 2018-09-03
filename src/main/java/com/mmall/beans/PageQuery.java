@@ -13,6 +13,7 @@ import javax.validation.constraints.Min;
  */
 public class PageQuery {
 
+
     @Getter
     @Setter
     @Min(value = 1, message = "当前页码不合法")
