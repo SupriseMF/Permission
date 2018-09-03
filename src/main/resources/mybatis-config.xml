@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--根据需要使用setting设置-->
+    <settings>
+        <setting name="safeRowBoundsEnabled" value="true"/>
+        <setting name="cacheEnabled" value="false" />
+        <setting name="useGeneratedKeys" value="true" />
+    </settings>
+
+    <!--设置mysql查询语句中本地类的别名-->
+    <!--<typeAliases>-->
+        <!--<typeAlias type="com.xxxxxx.xxxx" alias="abcdefg" />-->
+    <!--</typeAliases>-->
+
+    <!--在SQL查询语句前后做拦截监听-->
+    <!--<plugins>-->
+        <!--<plugin interceptor=""></plugin>-->
+    <!--</plugins>-->
+
+    <!--可以将SQL查询结果中对象类型转换为本地类型，例如当类中有枚举，无法进行数据库映射时-->
+    <!--<typeHandlers>-->
+        <!--<typeHandler handler=""-->
+    <!--</typeHandlers>-->
+    
+</configuration>
